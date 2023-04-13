@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3 {
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-top: 15px;
+    text-align: center;
+}
+p{
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 27px;
+}
+/* Header CSS */
+nav {
+    overflow: hidden;
+    margin-top: 10px;
+}
+.logo {
+    width: 35%;
+    float: left;
+}
+.logo img {
+    width: 10%;
+}
+.menu {
+    width: 60%;
+    float: right;
+    text-align: right;
+}
+.menu li {
+    display: inline-block;
+    list-style: none;
+    margin:10px;
+}
+.menu li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.banner {
+   background-image: url(../images/bg-jpg.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   min-height: 600px;
+   overflow: hidden;
+   margin-top: 20px;
+}
+
+.banner-content {
+    width: 60%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.banner-content h2 {
+    text-transform: capitalize;
+    color: #1bd303;
+    font-size: 40px;
+}
+ 
+.banner-content p {
+	font-size: 25px;
+	padding: 3% 10%;
+	color: #d30505;
+}
+
+.learn-btn {
+    background-color: #026b4b;
+    color: #f5deb3;
+    padding: 15px 20px;
+    border: 2px solid #16288f;
+    border-radius: 28px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* About CSS */
+.about {
+    overflow: hidden;
+}
+
+.about h3 {
+    color: #026b4b;
+}
+
+.about-content {
+    width: 95%;
+    text-align: center;
+    overflow: hidden;
+    margin: 15px auto;
+    background-color: #d4d0c7;
+}
+/* Service CSS */
+.services {
+    overflow: hidden;
+    padding: 20px 0;
+}
+.service-text h2 {
+    text-transform: capitalize;
+    color: #026b4b;
+    font-size: 40px;
+    margin: 15px 0;
+    text-align: center;
+}
+.service-item, .service-item-1 {
+    width: 23%;
+    float: left;
+    overflow: hidden;
+    margin-right: 2.5%;
+    background-color: #d3e7e1;
+    padding:20px;
+    border-radius: 15px;
+}
+.service-item-1 {
+    float: right;
+    margin-right: 0%;
+}
+/* Blog CSS */
+.blogs {
+    overflow: hidden;
+}
+
+.blog {
+    width: 33%;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    margin-right: .3%;
+    background-color: #d8ebe5;
+    border-radius: 15px;
+    padding: 25px;
+}
+.blog-text h2 {
+    text-transform: capitalize;
+    color: #026b4b;
+    font-size: 40px;
+    margin: 15px 0;
+    text-align: center;
+}
+/* Sidebar CSS */
+.sidebar {
+    width: 23%;
+    min-height: 500px;
+    float: left;
+    overflow: hidden;
+    background-color: #e6e2db;
+    margin-right: 30px;
+}
+.side-item {
+    padding: 20px;
+}
+
+/* Footer CSS */
+.footer {
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+.social-icon img  {
+    width: 22px;
+    padding-right: 5px;
+}
+.social-link p img  {
+    width: 20px;
+    padding-right: 5px;
+}
+
+.social-link p {
+    margin-left: 5px;
+}
+.widgets {
+    overflow: hidden;
+}
+.widgets h4 {
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.footer-about {
+    margin: 0 auto;
+}
+
+.footer .about, .social-link {
+    width: 30%;
+    float: left;
+    margin-right: 3%;
+    padding: 0 15px;
+}
+.footer .about ul li {
+    margin: 10px 45px;
+    text-transform: capitalize;
+}
+.social-link {
+    text-align: center;
+}
+
+.social-icon li {
+    list-style: none;
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 8px;
+}
+
+.copyright {
+    width: 70%;
+    border-top: 1px solid #FDF4F5;
+    margin: 15px auto;
+    text-align: center;
+    padding: 2% 0;
+}
